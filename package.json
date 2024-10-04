@@ -1,0 +1,50 @@
+{
+    "name": "pmsportal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "export": "next build && next export",
+        "lint": "next lint",
+        "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@hookform/resolvers": "^3.1.0",
+        "@reduxjs/toolkit": "^1.9.5",
+        "axios": "^1.3.6",
+        "babel-plugin-transform-require-ignore": "^0.1.1",
+        "chart.js": "^4.4.4",
+        "etcalendar-datepicker": "^3.1.7",
+        "i18next": "^22.4.15",
+        "lodash": "^4.17.21",
+        "moment": "^2.29.4",
+        "next": "^13.3.2",
+        "next-auth": "^4.22.1",
+        "next-i18next": "^13.2.2",
+        "papaparse": "^5.4.1",
+        "primeflex": "^3.3.0",
+        "primeicons": "^6.0.1",
+        "primereact": "^9.3.0",
+        "quill": "^2.0.2",
+        "react": "^18.2.0",
+        "react-chartjs-2": "^5.2.0",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.43.9",
+        "react-i18next": "^12.2.1",
+        "react-quill": "^0.0.2",
+        "react-redux": "^8.0.5",
+        "xlsx": "^0.18.5",
+        "yup": "^1.1.1",
+        "zod": "^3.21.4"
+    },
+    "devDependencies": {
+        "prettier": "^3.3.2",
+        "sass": "^1.77.8"
+    }
+}
